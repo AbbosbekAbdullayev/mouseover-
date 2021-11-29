@@ -7,3 +7,13 @@ bloc.onclick = function (){
 bloc.ondblclick = function (){
     this.style.background = 'red'
 }
+bloc.oncontextmenu = function (){
+    this.style.background = 'black';
+    return false;
+}
+document.oncontextmenu = function(){
+    return false;
+}
+bloc.onmouseenter = function(){
+    console.log
+}
